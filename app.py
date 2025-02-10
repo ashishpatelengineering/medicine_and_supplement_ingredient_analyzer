@@ -12,8 +12,8 @@ from tempfile import NamedTemporaryFile
 from constants import SYSTEM_PROMPT, INSTRUCTIONS
 
 # API Keys (Ensure these are stored securely in production)
-os.environ['TAVILY_API_KEY'] = st.secrets['TAVILY_KEY']
-os.environ['GOOGLE_API_KEY'] = st.secrets['GEMINI_KEY']
+os.environ['TAVILY_API_KEY'] = st.secrets['TAVILY_API_KEY']
+os.environ['GOOGLE_API_KEY'] = st.secrets['GOOGLE_API_KEY']
 
 MAX_IMAGE_WIDTH = 300
 
