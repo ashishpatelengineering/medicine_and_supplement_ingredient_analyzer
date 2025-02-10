@@ -62,7 +62,7 @@ def save_uploaded_file(uploaded_file):
 
 def main():
     """Streamlit UI"""
-    st.title("💊 Medicine & Supplement Ingredient Analyzer")
+    st.title("💊 Medicine & Supplement Analyzer")
     st.markdown("Upload an image of a **medicine or supplement label** to analyze its ingredients, safety, and effectiveness.")
 
     if 'selected_example' not in st.session_state:
@@ -112,7 +112,7 @@ def main():
 if __name__ == "__main__":
     st.set_page_config(
         page_title="Medicine & Supplement Analyzer",
-        layout="wide",
+        layout="centered",
         initial_sidebar_state="collapsed"
     )
     main()
