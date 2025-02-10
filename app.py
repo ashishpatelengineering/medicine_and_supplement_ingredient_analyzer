@@ -62,7 +62,7 @@ def save_uploaded_file(uploaded_file):
 
 def main():
     """Streamlit UI"""
-    st.title("💊 Medicine & Supplement Ingredient Analyzer", divider = "rainbow")
+    st.title("💊 Medicine & Supplement Ingredient Analyzer")
     st.markdown("Upload an image of a **medicine or supplement label** to analyze its ingredients, safety, and effectiveness.")
 
     if 'selected_example' not in st.session_state:
